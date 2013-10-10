@@ -1,0 +1,27 @@
+{
+  "name": "__MSG_name__",
+  "description": "__MSG_description__",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "unlimitedStorage",
+    "tabs",
+    "geolocation",
+    "*://*/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' chrome-extension-resource://; object-src 'self' chrome-extension-resource://; xhr-src 'self' chrome-extension-resource://; image-src 'self' chrome-extension-resource://",
+  "default_locale" : "ru",
+  "background": {
+    "page": "background/background.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/default_19x19.png",
+      "38": "images/default_38x38.png"
+    }
+  },
+  "web_accessible_resources": [
+    "images/bad.png"
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>POI Crawler</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../libs/leaflet/leaflet.css">
+    <link rel="stylesheet" href="app.css">
+    <script type="text/javascript" src="../libs/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="../libs/async.js"></script>
+    <script type="text/javascript" src="../includes/utils.js"></script>
+    <script type="text/javascript" src="../includes/editor.js"></script>
+    <script type="text/javascript" src="../includes/iconizer.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="panel">
+      <div id="panel-address">
+        <h1>Адрес</h1>
+        <hr>
+        <div class="address"></div>
+        <a class="pseudo" id="yandex-link-contacts" href="">Поиск в Яндексе (контакты)</a><br>
+        <a class="pseudo" id="yandex-link" href="">Поиск в Яндексе (общий)</a>
+      </div>
+      <div id="panel-poi">
+        <h1>POI</h1>
+        <hr>
+        <div id="editor-placeholder"></div>
+        <button id="remove-button">Удалить</button>
+      </div>
+      <div id="panel-export">
+        <h1>Выгрузка</h1>
+        <hr>
+        <a class="pseudo" id="upload-link" href="">Отправить в JOSM</a><br>
+        <a class="pseudo" id="download-link" href="">Сохранить как…</a>
+      </div>
+      <div class="poi"></div>
+      <div class="dataset"></div>
+    </div>
+    <div id="popup-container"></div>
+  </body>
+</html>

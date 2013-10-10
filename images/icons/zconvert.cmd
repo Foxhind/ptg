@@ -1,0 +1,1 @@
+composite -gravity center %1 back.png %1

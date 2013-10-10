@@ -1,0 +1,62 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Segoe UI', Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+}
+
+input, textarea, select {
+  font-family: 'Lucida Grande', 'Segoe UI', Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lucida Grande', 'Segoe UI', Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 6px 0;
+}
+
+hr {
+  height: 0;
+  border-color: #ccc;
+  border-style: solid none none;
+  border-width: 1px 0 0;
+  margin: 6px 0;
+}
+
+button {
+  margin: 0;
+  padding: 4px 10px;
+}
+
+/* Editor */
+
+.editor .button-remove, .editor .button-add {
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 16px;
+  opacity: 0.3;
+  width: 16px;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+}
+
+.editor tr:hover .button-remove, .editor tr:hover .button-add {
+  opacity: 1;
+}
+
+.editor .button-remove {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAAGElEQVR4Xn3AAQEAAAgCIOz/Z3sgQQ1n8z6IAQPoEndaAAAAAElFTkSuQmCC");
+}
+
+.editor .button-add {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAMklEQVR4XqWPsQkAQAgD4/ODObqbqWARsNDCg0OQEAgaXpKHmT0gqZ8afqogVoe/+4oAWt0GSSdx520AAAAASUVORK5CYII=");
+}

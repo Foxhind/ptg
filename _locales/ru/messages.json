@@ -1,0 +1,16 @@
+﻿{
+	"name": {
+		"message": "POI: The Gathering"
+	},
+	"description": {
+		"message": "Средство для сбора POI по адресам"
+	},
+  "search_url": {
+    "message": "http://yandex.ru/yandsearch?text=$query$",
+    "placeholders": {
+      "query": {
+        "content": "$1"
+      }
+    }
+  }
+}

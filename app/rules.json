@@ -1,0 +1,425 @@
+[
+  {
+    "tags": {
+      "tourism": "hotel"
+    },
+    "icon": "accommodation_hotel2.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "library"
+    },
+    "icon": "amenity_library.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "police"
+    },
+    "icon": "amenity_police.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "post_office"
+    },
+    "icon": "amenity_post_office.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "school"
+    },
+    "icon": "education_school_secondary.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "bar"
+    },
+    "icon": "food_bar.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "biergarten"
+    },
+    "icon": "food_biergarten.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "cafe"
+    },
+    "icon": "food_cafe.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "pub"
+    },
+    "icon": "food_pub.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "restaurant"
+    },
+    "icon": "food_restaurant.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "dentist"
+    },
+    "icon": "health_dentist.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "doctors"
+    },
+    "icon": "health_doctors.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "pharmacy"
+    },
+    "icon": "health_pharmacy.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "hospital"
+    },
+    "icon": "health_hospital.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "atm"
+    },
+    "icon": "money_atm2.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "bank"
+    },
+    "icon": "money_bank2.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "place_of_worship"
+    },
+    "icon": "place_of_worship_unknown.p.12.png"
+  },
+  {
+    "tags": {
+      "power": "generator"
+    },
+    "icon": "power_station_coal.p.12.png"
+  },
+  {
+    "tags": {
+      "power": "plant"
+    },
+    "icon": "power_station_coal.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "alcohol"
+    },
+    "icon": "shopping_alcohol.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "bakery"
+    },
+    "icon": "shopping_bakery.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "bicycle"
+    },
+    "icon": "shopping_bicycle.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "books"
+    },
+    "icon": "shopping_book.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "butcher"
+    },
+    "icon": "shopping_butcher2.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "car"
+    },
+    "icon": "shopping_car.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "car_repair"
+    },
+    "icon": "shopping_car_repair.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "clothes"
+    },
+    "icon": "shopping_clothes.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "computer"
+    },
+    "icon": "shopping_computer.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "confectionery"
+    },
+    "icon": "shopping_confectionery.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "convenience"
+    },
+    "icon": "shopping_convenience.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "copyshop"
+    },
+    "icon": "shopping_copyshop.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "department_store"
+    },
+    "icon": "shopping_department_store.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "diy"
+    },
+    "icon": "shopping_diy.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "fish"
+    },
+    "icon": "shopping_fish.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "florist"
+    },
+    "icon": "shopping_florist.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "garden_centre"
+    },
+    "icon": "shopping_garden_centre.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "gift"
+    },
+    "icon": "shopping_gift.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "greengrocer"
+    },
+    "icon": "shopping_greengrocer.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "hairdresser"
+    },
+    "icon": "shopping_hairdresser.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "jewelry"
+    },
+    "icon": "shopping_jewelry2.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "kiosk"
+    },
+    "icon": "shopping_kiosk.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "laundrette"
+    },
+    "icon": "shopping_laundrette.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "marketplace"
+    },
+    "icon": "shopping_marketplace.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "mobile_phone"
+    },
+    "icon": "shopping_mobile_phone.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "motorcycle"
+    },
+    "icon": "shopping_motorcycle.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "music"
+    },
+    "icon": "shopping_music.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "pet"
+    },
+    "icon": "shopping_pet2.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "photo"
+    },
+    "icon": "shopping_photo.p.12.png"
+  },
+  {
+    "tags": {
+      "shop": "supermarket"
+    },
+    "icon": "shopping_supermarket.p.12.png"
+  },
+  {
+    "tags": {
+      "sport": "soccer"
+    },
+    "icon": "sport_soccer.p.12.png"
+  },
+  {
+    "tags": {
+      "leisure": "stadium"
+    },
+    "icon": "sport_stadium.p.12.png"
+  },
+  {
+    "tags": {
+      "tourism": "gallery"
+    },
+    "icon": "tourist_art_gallery2.p.12.png"
+  },
+  {
+    "tags": {
+      "tourism": "attraction"
+    },
+    "icon": "tourist_attraction.p.12.png"
+  },
+  {
+    "tags": {
+      "historic": "castle"
+    },
+    "icon": "tourist_castle2.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "cinema"
+    },
+    "icon": "tourist_cinema.p.12.png"
+  },
+  {
+    "tags": {
+      "information": true
+    },
+    "icon": "tourist_information.p.12.png"
+  },
+  {
+    "tags": {
+      "historic": "memorial"
+    },
+    "icon": "tourist_memorial.p.12.png"
+  },
+  {
+    "tags": {
+      "tourism": "museum"
+    },
+    "icon": "tourist_museum.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "theatre"
+    },
+    "icon": "tourist_theatre.p.12.png"
+  },
+  {
+    "tags": {
+      "aeroway": "aerodrome"
+    },
+    "icon": "transport_airport.p.12.png"
+  },
+  {
+    "tags": {
+      "highway": "bus_stop"
+    },
+    "icon": "transport_bus_stop.p.12.png"
+  },
+  {
+    "tags": {
+      "public_transport": "stop_position",
+      "bus": "yes"
+    },
+    "icon": "transport_bus_stop.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "fuel"
+    },
+    "icon": "transport_fuel.p.12.png"
+  },
+  {
+    "tags": {
+      "aeroway": "helipad"
+    },
+    "icon": "transport_helicopter_pad.p.12.png"
+  },
+  {
+    "tags": {
+      "amenity": "parking"
+    },
+    "icon": "transport_parking.p.12.png"
+  },
+  {
+    "tags": {
+      "railway": "subway_entrance"
+    },
+    "icon": "transport_subway.p.12.png"
+  },
+  {
+    "tags": {
+      "public_transport": "stop_position",
+      "subway": "yes"
+    },
+    "icon": "transport_subway.p.12.png"
+  },
+  {
+    "tags": {
+      "railway": "station"
+    },
+    "icon": "transport_train_station2.p.12.png"
+  },
+  {
+    "tags": {
+      "railway": "halt"
+    },
+    "icon": "transport_train_station2.p.12.png"
+  },
+  {
+    "tags": {
+      "public_transport": "stop_position",
+      "train": "yes"
+    },
+    "icon": "transport_train_station2.p.12.png"
+  }
+]
