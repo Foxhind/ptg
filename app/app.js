@@ -222,6 +222,7 @@ var controller = {
     async.parallel([
       function(callback) {
         var query = '[out:json];(node(around:10.0,' + that.lastClick.lat + ',' + that.lastClick.lng + ')["addr:housenumber"];way(around:10.0,' + that.lastClick.lat + ',' + that.lastClick.lng + ')["addr:housenumber"];relation(around:10.0,' + that.lastClick.lat + ',' + that.lastClick.lng + ')["addr:housenumber"];);(._;>;);out body;';
+        query += '((rel(bw)["type"="associatedStreet"];rel(br)["type"="associatedStreet"];rel(bn)["type"="associatedStreet"];)->.a;);(.a); out;';
         requestAddress.onreadystatechange = function() {
           if (requestAddress.readyState == 4) {
             if(requestAddress.status == 200) {
@@ -331,11 +332,23 @@ var controller = {
           relation: {}
         };
 
+    var streetRelations = {};
     var element;
+    for (var i = 0; i < data[0].elements.length; i++) {
+       element = data[0].elements[i];
+       if (element.type == 'relation' && element.tags && element.tags.type == 'associatedStreet' && element.tags.name && element.members) {
+         for (var j = 0; j < element.members.length; j++) {
+           streetRelations[element.members[j].ref] = element.tags.name;
+         }
+       }
+    }
     for (var i = 0; i < data[0].elements.length; i++) {
       element = data[0].elements[i];
 
       // Candidate detection
+      if (streetRelations[element.id] && element.tags && !element.tags['addr:street']) {
+        element.tags['addr:street'] = streetRelations[element.id];
+      }
       if (element.tags && element.tags['addr:housenumber'] && (element.tags['addr:street'] || element.tags['addr:place'] || element.tags['addr:city'])) {
         candidates[element.type].push(element);
       }
